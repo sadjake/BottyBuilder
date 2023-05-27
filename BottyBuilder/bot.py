@@ -1,7 +1,7 @@
 import discord
 import responses
 
-TOKEN = 'MTExMTg1NTIyNjU2NDEyMDYwNg.GShq2h.PB9CHcPl3mSRvxGmxumsaSecVoYcT9htG-yP80'
+TOKEN = ''
 
 async def send_message(message, user_message, is_private):
     try:
