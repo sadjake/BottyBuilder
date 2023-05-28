@@ -1,6 +1,7 @@
 import discord
 import responses
 
+# discord bot token (don't post it on github)
 TOKEN = ''
 
 async def send_message(message, user_message, is_private):
@@ -12,14 +13,14 @@ async def send_message(message, user_message, is_private):
         print(e)
 
 def run_discord_bot():
-    TOKEN = 'MTExMTg1NTIyNjU2NDEyMDYwNg.GShq2h.PB9CHcPl3mSRvxGmxumsaSecVoYcT9htG-yP80'
+    TOKEN = ''
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
 
     @client.event
     async def on_ready():
-        print(f'{client.user} is currently running!')
+        print(f'{client.user} is active as of now.')
 
     @client.event
     async def on_message(message):
@@ -34,9 +35,9 @@ def run_discord_bot():
 
         if user_message[0] == '?':
             user_message = user_message[1:]
-            await send_message(message, user_message, is_private=True)
+            await send_message(message, user_message, is_private = True)
         else:
-            await send_message(message, user_message, is_private=False)
+            await send_message(message, user_message, is_private = False)
 
     client.run(TOKEN)
 
