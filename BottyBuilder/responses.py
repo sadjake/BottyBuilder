@@ -15,9 +15,9 @@ def get_response(message: str) -> str:
         return 'Please enter your height in cm.'
     
     if message = '!exercises':
-        return 'Here is a list of muscle groups to train. The command \n
+        return 'Here is a list of muscle groups to train with their commands.\nChest - "!chest"\nBack - "!back"\nArms - "!arm"\nShoulders - "!shoulders"\nLegs - "!legs"'
     
- 
+    
         
     
     if message = '!bulk':
