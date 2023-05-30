@@ -18,7 +18,7 @@ def get_response(message: str) -> str:
         return 'Here is a list of muscle groups to train with their commands.\nChest - "!chest"\nBack - "!back"\nArms - "!arm"\nShoulders - "!shoulders"\nLegs - "!legs"'
     
     if message = '!chest':
-        return 'choose chest exercises to do at the gym ("!gymchest") or exercises to do at home ("!homechest").
+        return 'choose chest exercises to do at the gym - "!gymchest" or exercises to do at home - !homechest".
     
     if message = '!gymchest':
         return 'lol'
@@ -27,7 +27,7 @@ def get_response(message: str) -> str:
         return 'lol'
 
     if message = '!back':
-        return 'choose back exercises to do at the gym ("!gymback") or exercises to do at home ("!homeback").
+        return 'choose back exercises to do at the gym - "!gymback" or exercises to do at home - "!homeback".
     
     if message = '!gymback':
         return 'lol'
@@ -36,7 +36,7 @@ def get_response(message: str) -> str:
         return 'lol'
         
     if message = '!arms':
-        return 'choose arm exercises to do at the gym ("!gymarms") or exercises to do at home ("!homearms").
+        return 'choose arm exercises to do at the gym - "!gymarms" or exercises to do at home - "!homearms".
     
     if message = '!gymarms':
         return 'lol'
@@ -45,7 +45,7 @@ def get_response(message: str) -> str:
         return 'lol'
         
     if message = '!shoulders':
-        return 'choose shoulder exercises to do at the gym ("!gymshoulders") or exercises to do at home ("!homeshoulders").
+        return 'choose shoulder exercises to do at the gym - "!gymshoulders" or exercises to do at home - "!homeshoulders".
     
     if message = '!gymshoulders':
         return 'lol'
@@ -54,7 +54,7 @@ def get_response(message: str) -> str:
         return 'lol'
 
     if message = '!legs':
-       return 'choose back exercises to do at the gym ("!gymlegs") or exercises to do at home ("!homelegs").
+       return 'choose back exercises to do at the gym - "!gymlegs" or exercises to do at home - "!homelegs".
 
     if message = '!gymlegs':
         return 'lol'
