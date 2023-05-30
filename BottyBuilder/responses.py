@@ -17,8 +17,18 @@ def get_response(message: str) -> str:
     if message = '!exercises':
         return 'Here is a list of muscle groups to train with their commands.\nChest - "!chest"\nBack - "!back"\nArms - "!arm"\nShoulders - "!shoulders"\nLegs - "!legs"'
     
-    
+    if message = '!chest':
         
+
+    if message = '!back':
+        
+    if message = '!arms':
+        
+    if message = '!shoulders':
+
+    if message = '!legs':
+       
+    
     
     if message = '!bulk':
         return 'Here are a list of foods that are high in calorie.\n'
