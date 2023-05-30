@@ -18,17 +18,49 @@ def get_response(message: str) -> str:
         return 'Here is a list of muscle groups to train with their commands.\nChest - "!chest"\nBack - "!back"\nArms - "!arm"\nShoulders - "!shoulders"\nLegs - "!legs"'
     
     if message = '!chest':
-        
+        return 'choose chest exercises to do at the gym ("!gymchest") or exercises to do at home ("!homechest").
+    
+    if message = '!gymchest':
+        return 'lol'
+    
+    if message = '!homechest':
+        return 'lol'
 
     if message = '!back':
+        return 'choose back exercises to do at the gym ("!gymback") or exercises to do at home ("!homeback").
+    
+    if message = '!gymback':
+        return 'lol'
+    
+    if message = '!homeback':
+        return 'lol'
         
     if message = '!arms':
+        return 'choose arm exercises to do at the gym ("!gymarms") or exercises to do at home ("!homearms").
+    
+    if message = '!gymarms':
+        return 'lol'
+    
+    if message = '!homearms':
+        return 'lol'
         
     if message = '!shoulders':
+        return 'choose shoulder exercises to do at the gym ("!gymshoulders") or exercises to do at home ("!homeshoulders").
+    
+    if message = '!gymshoulders':
+        return 'lol'
+    
+    if message = '!homeshoulders':
+        return 'lol'
 
     if message = '!legs':
-       
+       return 'choose back exercises to do at the gym ("!gymlegs") or exercises to do at home ("!homelegs").
+
+    if message = '!gymlegs':
+        return 'lol'
     
+    if message = '!homelegs':
+        return 'lol'
     
     if message = '!bulk':
         return 'Here are a list of foods that are high in calorie.\n'
@@ -37,12 +69,9 @@ def get_response(message: str) -> str:
         return 'Here are a list of foods that are low in calorie.\n"
     
     if message = '!motivation':
-        
+        return 'Reminder to drink plenty of water!'
     
     # figure out how to get bot to retrieve info through discord
-
-
-
 
 
     return 'Sorry, I didn\'t get that. Try typing "!help".'
