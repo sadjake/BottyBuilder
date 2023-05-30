@@ -18,7 +18,7 @@ def get_response(message: str) -> str:
         return 'Here is a list of muscle groups to train with their commands.\nChest - "!chest"\nBack - "!back"\nArms - "!arm"\nShoulders - "!shoulders"\nLegs - "!legs"'
     
     if message = '!chest':
-        return 'choose chest exercises to do at the gym, type "!gymchest" or for exercises to do at home, type !homechest".
+        return 'choose chest exercises to do at the gym, type "!gymchest" or for exercises to do at home, type !homechest".'
     
     if message = '!gymchest':
         return 'lol'
@@ -27,7 +27,7 @@ def get_response(message: str) -> str:
         return 'lol'
 
     if message = '!back':
-        return 'choose back exercises to do at the gym, type "!gymback" or for exercises to do at home, type "!homeback".
+        return 'choose back exercises to do at the gym, type "!gymback" or for exercises to do at home, type "!homeback".'
     
     if message = '!gymback':
         return 'lol'
@@ -36,7 +36,7 @@ def get_response(message: str) -> str:
         return 'lol'
         
     if message = '!arms':
-        return 'choose arm exercises to do at the gym, type "!gymarms" or for exercises to do at home, type "!homearms".
+        return 'choose arm exercises to do at the gym, type "!gymarms" or for exercises to do at home, type "!homearms".'
     
     if message = '!gymarms':
         return 'lol'
@@ -45,7 +45,7 @@ def get_response(message: str) -> str:
         return 'lol'
         
     if message = '!shoulders':
-        return 'choose shoulder exercises to do at the gym, type "!gymshoulders" or for exercises to do at home, type "!homeshoulders".
+        return 'choose shoulder exercises to do at the gym, type "!gymshoulders" or for exercises to do at home, type "!homeshoulders".'
     
     if message = '!gymshoulders':
         return 'lol'
@@ -54,7 +54,7 @@ def get_response(message: str) -> str:
         return 'lol'
 
     if message = '!legs':
-       return 'choose back exercises to do at the gym, type "!gymlegs" or for exercises to do at home, type "!homelegs".
+       return 'choose back exercises to do at the gym, type "!gymlegs" or for exercises to do at home, type "!homelegs".'
 
     if message = '!gymlegs':
         return 'lol'
