@@ -2,7 +2,7 @@ import random
 
 def get_response(message: str) -> str:
     # just for convenience in case someone types in a command with upper case but will remove
-    # p_message = message.lower()
+    p_message = message.lower()
 
     if message == 'hello' or p_message == 'hi':
         return 'Hello! My name is BottyBuilder. I will help you achive your fitness goals!'
