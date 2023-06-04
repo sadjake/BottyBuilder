@@ -16,6 +16,12 @@ Gives a reminder to drink plenty of water per day
 
 Have completed:
 
+Gives you exercises you can do at the gym depending on which part of the body you want to train that day OR body weight exercises you can do at home
+
+Gives you a list of foods to eat on a bulk
+
+Gives you a list of foods to eat on a cut
+
 A hello message
 
 List of commands
